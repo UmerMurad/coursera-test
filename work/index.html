@@ -2,9 +2,94 @@
 <html>
 <head>
 	<title>Hello Coursera!</title>
+	<style>
+		h2{
+			color: purple;
+			text-align: center;
+		}
+		.Hello {
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			background-color: green;
+			opacity: .6;
+			
+		}
+
+		#mainpoint{
+			font-size: 24px;
+			font-weight:bold;
+			background-color: red;
+			opacity: .7;
+		}
+
+		p,h1 {
+			color: orange;
+			text-align: center;
+		}
+		.highlight{
+			background-color: blue;
+		}
+		p.highlight{
+			font-style: italic;
+		}
+		.highlight.mainpoint{
+			color: red;
+			background-color: black;
+		}
+		section > article{
+			color: green;
+			font-size:24px;
+		}
+		section > h4{
+			color: green;
+		}
+		section li{
+			color: green;
+		}
+	</style>
 </head>
 <body>
-<h1>This is first page. Hope you like it.</h1>
-<h2>Second page!</h2>
+<h1>Simple Selectors.</h1>
+<h2>Sub Heading 1.</h2>
+<p class="Hello">Life is a beautiful journey that is meant to be embraced to the fullest every day. However, that doesn’t mean you always wake up ready to seize the day, and sometimes need a reminder that life is a great gift. Whether a funny quote from a famous celebrity or an encouraging message about giving it your best from a successful business person, we can all use a little motivation and inspiration these days via a life quote. </p>
+<h2>Sub Heading 2.</h2>
+<p>Money and success don’t change people; they merely amplify what is already there. Never let the fear of striking out keep you from playing the game.</p>
+<div>Your time is limited, so don’t waste it living someone else’s life. Don’t be trapped by dogma – which is living with the results of other people’s thinking.
+<span id="mainpoint">id="mainpoint"</span>
+</div>
+<h2 class="highlight">Highlight.</h2>
+<p class="highlight">Live for each second without hesitation.</p>
+<div class="highlight mainpoint">class with both highlight and mainpoint will affected.</div>
+<h3>Child Selector</h3>
+<section>
+	<h4>Subheading 1</h4>
+	<div>
+		<article>Article which inside DIV which is inside Section</article>
+	</div>
+</section>
+<section>
+	<article>Article as a direct child of a section element.</article>
+</section>
+<h4>Subheading 2</h4>
+<h5>
+	Decendant Selector
+</h5>
+<section>
+	Table of content:
+	<ul>
+		<li>Article 1</li>
+		<li>Article 2</li>
+		<li>Article 3</li>
+	</ul>
+</section>
+<article>
+	Shoping list:
+	<ul>
+		<li>Cookies</li>
+		<li>Cake</li>
+		<li>Pie</li>
+	</ul>
+</article>
 </body>
 </html>
