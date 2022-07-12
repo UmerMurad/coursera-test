@@ -1,9 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>position</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1{
+			margin-top: 15px;
+		}
+		
+		div#container {
+			background-color: blue;
+			position: relative;
+			top: 60px;
+		}
+		p {
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p7{
+			background-color: #a52a2a;
+			position: relative;
+			top: 65px;
+			left: 65px;
+		}
+		#p8{
+			background-color: #a52fff;
+		}
+		 #p9{
+		 	background-color: #ff2ffa;
+		 	position: absolute;
+		 	top: 0;
+		 	left: 0;
+		 }
+		 #p10{
+		 	background-color: #a5f3fa;
+		 }
+		 h2{
+		 	margin-top: 90px;
+			margin-bottom: 15px;
+		 }
+		 section > p {
+		 	border: 1px solid black;
+		 	margin-bottom: 15px;
+		 }
+
+		 #p1 {
+		 	background-color: #a52a2a;
+		 	width: 300px;
+		 	height: 300px;
+		 }
+		 #p2 {
+		 	background-color: #a52a2a;
+		 	width: 50px;
+		 	height: 50px;
+		 }
+		 /*large divices only*/
+		 @media (min-width: 1200px){
+		 	#p1{
+		 		width: 80%;
+		 	}
+		 	#p2{
+		 		width: 150px;
+		 		height: 150px;
+		 	}
+		 }
+		 /*Medium devices only*/
+		 @media (min-width: 992px) and (max-width: 1199px){
+		 	#p1{
+		 		width: 50%;
+		 	}
+		 	#p2{
+		 		width: 100px;
+		 		height: 100px;
+		 	}
+		 }
+	</style>
 </head>
 <body>
+	<h1>Positioning</h1>
+	<div id="container">
+	    <p id ="p7"></p>
+	    <p id ="p8"></p>
+	    <p id ="p9"></p>
+		<p id ="p10"></p>
+	</div>
+	<h2>Media Queries</h2>
+
+	<section>
+		<p id ="p1"></p>
+		<p id ="p2"></p>
+	</section>
 
 </body>
 </html>
