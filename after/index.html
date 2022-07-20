@@ -8,24 +8,49 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-header">
-					<a href="index.html" class ="">
-						<div id="logo-img" alt="Logo Image"></div>
-					</a>
-					<div class="navbar-band">
-						<a href="index.html"><h1>David Chu's China Bistro</h1></a>
-						<p>
-							<img src="C:/Users/Jawad/module2-solution/star-logo.jpg" alt="Kosher certification">
-							<span>Kosher Certificated</span>
-						</p>
-					</div>
+		<nav id="header-nav" class="navbar navbar-default navbar-expand-md navbar-expand-lg">
+			<div class="container-fluid">
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<a href="index.html" class ="float-start d-none d-md-block d-md-block">
+							<div id="logo-img" alt="Logo Image"></div>
+						</a>	
+				    </div>
+				<div class="navbar-brand">
+					<a href="index.html"><h1>David Chu's China Bistro</h1></a>
+					<p>
+						<img src="C:/Users/Jawad/module2-solution/after/star-logo.jpg" alt="Kosher certification">
+						<span>Kosher Certificated</span>
+					</p>
 				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02" id="navbarTogglerDemo01">
+		      		<ul id="nav-list" class="navbar-nav navbar-right me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+		          			<a class="nav-link active" aria-current="page" href="#">
+		          			<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br>Menu</a>
+		        		</li>
+		        		<li class="nav-item">
+		         			<a class="nav-link" href="#">
+		         			<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><br>About</a>
+		        		</li>
+		        		<li class="active">
+		        			<a href="#">
+		        				<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>Menu
+		        			</a>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link disabled">
+		          			<span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><br>Awards</a>
+		        		</li>
+		      		</ul>
+	    		</div>
 			</div>
 		</nav>
 	</header>
