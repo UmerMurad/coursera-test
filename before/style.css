@@ -101,6 +101,11 @@ img{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+#menu-tile{
+	background: url('C:/Users/Jawad/module2-solution/before/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
 /****Large devices*****/
 @media (min-width: 1200px){
 	.container .jumbotron {
