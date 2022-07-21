@@ -85,7 +85,12 @@ img{
 }
 /****Large devices*****/
 @media (min-width: 1200px){
-
+	.jumbotron {
+		background: url('C:/Users/Jawad/module2-solution/before/jumbotron-1200.png') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3f0c1f;
+		/*border: 2px solid #3f0c1f;*/
+	}
 }
 /*****Medium devices only*****/
 @media (min-width: 992px) and (max-width: 1199px){
