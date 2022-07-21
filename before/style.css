@@ -106,6 +106,24 @@ img{
 	background-position: center;
 }
 
+#specials-tile{
+	background: url('C:/Users/Jawad/module2-solution/before/special-tile1.png') no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 /****Large devices*****/
 @media (min-width: 1200px){
 	.container .jumbotron {
