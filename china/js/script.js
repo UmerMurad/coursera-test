@@ -38,7 +38,7 @@ $(function () { //same as document.addEventListener("DOMContentLoaded")
 	// Show loading icon inside element identified by 'selector'.
 	var showLoading = function (selector) {
 		var html = "<div class = 'text-center'>";
-		html +="<img src='/Users/farhinakiran/coursera-test/china/IMAGES/ajax-loader.gif'></div>";
+		//html +="<img src='/Users/farhinakiran/coursera-test/china/IMAGES/ajax-loader.gif'></div>";
 		insertHTML(selector, html);
 	};
 
@@ -51,10 +51,23 @@ $(function () { //same as document.addEventListener("DOMContentLoaded")
 		return string;
 	}
 
+	// Remove the class 'active' from home and swiitch to menu button
+	var switchMenuToActive = function () {
+		// Remove active from home button
+		var classes = document.querySelector("#navHomeButton").className;
+		classes = classes.rreplace(new RegExp("active", "g"), "");
+		document.querySelector("navHomeButton").className = classes;
+
+		// Add 'active' to menu button if not already there
+		classes = document.querySelector("#navMenuButton").className;
+		if (classes.indexOf("active") == -1) {
+			classes += " active";
+			document.querySelector("#navMenuButton").className = classes;
+		}
+	};
+
 	// On page load (before images or CSS)
-	document.addEventListener("DOMContentLoaded",function (event){
-
-
+	document.addEventListener("DOMContentLoaded",function (event) {
 
 		// On first load, show home view
 		showLoading("#main-content");
