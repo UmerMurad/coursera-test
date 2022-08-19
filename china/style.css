@@ -14,7 +14,7 @@ body{
 	/*margin: 2px;*/
 }
 #logo-img{
-	background: url('/Users/farhinakiran/coursera-test/before/IMAGES/images.png') no-repeat;
+	background: url('/Users/farhinakiran/coursera-test/china/IMAGES/images.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 3px 7px 3px 0px;
@@ -133,12 +133,12 @@ body{
 }
 
 #menu-tile{
-	background: url('/Users/farhinakiran/coursera-test/before/IMAGES/menu-tile1.png') no-repeat;
+	background: url('/Users/farhinakiran/coursera-test/china/IMAGES/menu-tile1.png') no-repeat;
 	background-position: center;
 }
 
 #specials-tile{
-	background: url('/Users/farhinakiran/coursera-test/before/IMAGES/special2.png') no-repeat;
+	background: url('/Users/farhinakiran/coursera-test/china/IMAGES/special2.png') no-repeat;
 	background-position: center;
 }
 
@@ -234,20 +234,20 @@ h3.menu-item-title{
 /****Large devices*****/
 @media (min-width: 1200px){
 	.container .jumbotron {
-		background: url('/Users/farhinakiran/coursera-test/before/IMAGES/jumbotron-1500.png') no-repeat;
+		background: url('/Users/farhinakiran/coursera-test/china/IMAGES/jumbotron-1500.png') no-repeat;
 		height: 675px;
 	}
 }
 /*****Medium devices only*****/
 @media (min-width: 992px) and (max-width: 1199px){
 	#logo-img {
-		background: url('/Users/farhinakiran/coursera-test/before/IMAGES/images3.png') no-repeat;
+		background: url('/Users/farhinakiran/coursera-test/china/IMAGES/images3.png') no-repeat;
 		width: 100px;
 		height: 100px;
 		margin: 20px 5px 2px 0;
 	}
 	.container .jumbotron {
-		background: url('/Users/farhinakiran/coursera-test/before/IMAGES/jumbotron-1200.png') no-repeat;
+		background: url('/Users/farhinakiran/coursera-test/china/IMAGES/jumbotron-1200.png') no-repeat;
 		height: 558px;
 	}
 }
@@ -255,7 +255,7 @@ h3.menu-item-title{
 /******Small devices only*****/
 @media (min-width: 768px) and (max-width: 991px){
 	.container .jumbotron {
-		background: url('/Users/farhinakiran/coursera-test/before/IMAGES/jumbotron-992.png') no-repeat;
+		background: url('/Users/farhinakiran/coursera-test/china/IMAGES/jumbotron-992.png') no-repeat;
 		height: 432px;
 	}
 
